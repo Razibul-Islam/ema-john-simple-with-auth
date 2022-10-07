@@ -3,3 +3,19 @@
     top: 0;
     padding: 30px 20px;
 }
+.clear-btn{
+    font-size: 21px;
+    width: 100%;
+    padding: 10px;
+    background: #FF3030;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trash{
+    font-size: 17px;
+}
