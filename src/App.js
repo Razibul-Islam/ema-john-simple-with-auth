@@ -26,11 +26,7 @@ function App() {
         {
           path: "/orders",
           loader: productsAndCartLoader,
-          element: (
-            <PrivateRoutes>
-              <Orders></Orders>
-            </PrivateRoutes>
-          ),
+          element: <Orders></Orders>,
         },
         {
           path: "/inventory",
