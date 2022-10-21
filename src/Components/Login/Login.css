@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.form-container {
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    padding-left: 42px;
+}
+
+.form-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 17px;
+    color: #2A414F;
+    margin-bottom: 10px;
+}
+
+.form-control input {
+    width: 415px;
+    height: 55px;
+    font-size: 1.5em;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.btn-submit {
+    width: 415px;
+    height: 55px;
+    border: none;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.btn-submit:hover{
+    background: rgba(255, 153, 0, 0.4);
+}
